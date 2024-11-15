@@ -14,8 +14,8 @@ public class Main {
     }
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(4,5);
-        p.product(4,5, 6);
-        p.product(4.50, 5.50);
+        System.out.println(p.product(4,5));
+        System.out.println(p.product(7,8,9));
+        System.out.println(p.product(1.2, 2.3));
     }
 }
